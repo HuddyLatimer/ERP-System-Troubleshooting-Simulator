@@ -20,7 +20,7 @@ A training tool that simulates common ERP system errors and provides troubleshoo
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/HuddyLatimer/ERP-System-Troubleshooting-Simulator.git
 cd erp-troubleshooting-simulator
 ```
 
@@ -139,3 +139,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Built for ERP system training and troubleshooting practice
 - Inspired by real-world ERP system error scenarios
 - Uses modern web development best practices
+
