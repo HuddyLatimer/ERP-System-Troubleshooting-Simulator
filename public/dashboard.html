@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERP Simulator - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard-page">
+    <nav class="top-nav">
+        <h1>ERP Simulator</h1>
+        <button id="logoutBtn">Logout</button>
+    </nav>
+    
+    <div class="dashboard-container">
+        <div class="menu-panel">
+            <button class="menu-btn" data-module="inventory">Inventory</button>
+            <button class="menu-btn" data-module="finance">Finance</button>
+            <button class="menu-btn" data-module="hr">HR</button>
+        </div>
+
+        <main class="main-content">
+            <div id="moduleDisplay" class="module-display">
+                <h2>Welcome to ERP Simulator</h2>
+                <p>Select a module to begin. Random errors will occur to test your troubleshooting skills.</p>
+            </div>
+        </main>
+
+        <div class="knowledge-panel" id="knowledgePanel">
+            <h3>Troubleshooting Guide</h3>
+            <div id="errorInfo" class="error-info">
+                <p>No active errors</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
